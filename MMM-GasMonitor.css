@@ -1,0 +1,79 @@
+.gm-container {
+  font-size: 20px;
+  color: #fff;
+  width: 260px;
+  overflow: hidden;
+}
+
+.gm-title {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.gm-row {
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.gm-ok {
+  color: #22c55e;
+}
+
+.gm-alarm {
+  color: #f97316;
+  animation: gm-pulse 1s infinite;
+}
+
+.gm-icon {
+  font-size: 26px;
+  width: 36px;
+}
+
+.gm-label {
+  flex: 1;
+  font-size: 16px;
+}
+
+.gm-value {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gm-bar {
+  width: 100%;
+  height: 6px;
+  background: #333;
+  border-radius: 4px;
+  margin: 4px 0 10px 0;
+}
+
+.gm-bar-fill {
+  height: 100%;
+  background: #f97316;
+  border-radius: 4px;
+}
+
+.gm-baseline {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.gm-sparkline {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.gm-loading {
+  font-size: 18px;
+  color: #aaa;
+}
+
+@keyframes gm-pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
